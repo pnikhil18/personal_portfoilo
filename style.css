@@ -1,0 +1,103 @@
+header{
+   padding:40px;
+    /* background-color: aquamarine; */
+    text-align:center;
+    font-size: 35px;
+    font-weight:900;
+    text-transform: capitalize;
+    border:5px solid rgba(0, 0, 0,0.8);
+    border-radius: 10px;
+}
+h3{
+    margin-left:650px;
+    text-transform: capitalize;
+}
+
+#pic {
+    margin-left:600px;
+    margin-bottom:40px;
+    border:5px solid rgba(0, 0, 0, 0.85);
+    border-radius: 16px;
+}
+
+#main{
+    height:560px;
+    margin:2px;
+    border:5px solid rgba(0,0,0,0.8);
+    border-radius: 10px;
+    /* background-color:bisque; */
+   
+}
+#contact_mid {
+    height:440px;
+    margin-left:50px;
+    margin-top:50px;
+}
+body{
+    background-image: url("BG_img.jpg");
+    background-size: cover;
+}
+
+#box1,#box2,#box3{
+    margin-right:150px;
+    
+    border:3px solid rgb(169, 33, 33,0.2);
+    border-radius: 15px;
+    display:inline-block;
+  background-color:rgba(177, 83, 21, 0.2);
+  padding:15px 25px 15px 25px;
+  text-decoration: none;
+  font-weight: 900;
+}
+#box1{
+    margin-left:320px;
+}
+
+#box{
+    margin-right:160px;
+    margin-left:500px;
+    border:3px solid rgb(169, 33, 33,0.2);
+    border-radius: 15px;
+    width:200px;
+  background-color:rgba(177, 83, 21, 0.2);
+  padding:15px 95px 15px 95px;
+  text-transform : capitalize;
+  font-weight: 900;
+
+}
+
+.link{
+    text-decoration: none;
+    font-weight:900;
+    color:rgba(0, 0, 0,0.7);
+}
+
+footer {
+   
+/* background-color: #825BB5; */
+    color: rgb(12, 11, 10);
+    border:5px solid rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+ul {
+    display:inline-block;
+    padding:20px;
+    width:90px;
+    margin-right:150px;
+    border:5px solid white;
+}
+
+/* *************************************************************** */
+/* CONTACT PAGE 
+form {
+    color: aqua;
+}
+
+textarea
+{
+    background-color: #825BB5
+}
+.name{
+    background-color: #edd4cc
+} */
