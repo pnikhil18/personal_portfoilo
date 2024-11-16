@@ -212,33 +212,64 @@ margin:0px 14px 0px 25px;
   width:350px;
   border: 2.5px solid rgb(0,0,0,.4);
   border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;}
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  
+}
 
-.bx1{
+.bx{
   height:350px;
   width:290px;
   border: 2px solid rgb(0,0,0,.3);
   margin-top:30px;
   margin-left:30px ;
   border-radius: 25px;
-
 }
-#down{
+
+.pic1{
+  background-image: url(res.png);
+  background-size: cover;
+  background-position:center;
+}
+.pic2{
+  background-image: url(amz.png);
+  background-size: cover;
+  background-position:center;
+}
+.pic3{
+  background-image: url(img3.jpeg);
+  background-size: cover;
+  background-position:center;
+}
+.down{
   height:35px;
   border:2px solid rgb(0,0,0,.3);
+  border-radius: 10px;
   width:250px;
   margin-top: 20px;
   margin-left:50px ;
   text-align: center;
-  font-size: 25px;
-  font-weight: 600;
-}
-.down1{
-}
-.down2{
-
-}
-.down3{
-
+  font-size: 22px;
+  font-weight: 550;
+  padding-top: 10px;
 }
 
+.buttons{
+  height:80px;
+  width: 100%;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.butt{
+  width:140px;
+  height: 40px;
+  border: 2px solid rgb(0,0,0,.3);
+  border-radius: 10px;
+  font-size: 20px;
+  color:rgb(0,0,0,2) ;
+  text-align: center;
+  padding-top: 15px;
+}
+.butt:hover{
+  cursor: pointer;
+}
