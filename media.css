@@ -1,4 +1,4 @@
-/* @media(max-width:500px){
+/* /* @media(max-width:500px){
     .navbar{
         size: -20px;
     }
@@ -16,13 +16,13 @@
 } */
 
 /* General Reset for Consistent Appearance */
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Default Styling for Larger Screens */
+  /* Default Styling for Larger Screens 
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -87,7 +87,7 @@
   
   /* Media Queries for Responsiveness */
   
-  /* Tablet Screens (768px and below) */
+  /* Tablet Screens (768px and below) 
   @media (max-width: 768px) {
     .navbar {
       flex-direction: column;
@@ -108,7 +108,7 @@
     }
   }
   
-  /* Mobile Screens (480px and below) */
+  /* Mobile Screens (480px and below) 
   @media (max-width: 480px) {
     .navbar .part1 div {
       display: block;
@@ -143,4 +143,4 @@
       font-size: 0.8rem;
     }
   }
-  
+   */ 
