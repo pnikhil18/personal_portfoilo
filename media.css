@@ -1,146 +1,72 @@
-/* /* @media(max-width:500px){
-    .navbar{
-        size: -20px;
+   
+   @media(max-width:500px){
+  .navbar{
+      height:75px;
+    }
+    .name{
+      margin-left: 5px;
+      font-size: 29px;
     }
     .part1{
-        display:none;
+      display:none;
     }
-       .name{
-        margin-left: 10px;
-       }
-   
-   .projectss{
-    display:block;
-   }
-   
-} */
+  
+    *{
+      background-color: red;
+    }
 
-/* General Reset for Consistent Appearance */
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Default Styling for Larger Screens 
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-  }
-  
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background: #333;
-    color: #fff;
-  }
-  
-  .navbar .part1 div {
-    display: inline-block;
-    margin: 0 10px;
-  }
-  
-  .bodys1 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2rem;
-  }
-  
-  #profile_pic {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-  }
-  
-  .info {
-    max-width: 600px;
-    text-align: center;
-  }
-  
-  .projectss {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  
-  .project1 {
-    width: 30%;
-    margin: 1rem;
-    text-align: center;
-  }
-  
-  .contact-info-upper-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 1rem;
-    background: #222;
-    color: #fff;
-  }
-  
-  /* Media Queries for Responsiveness */
-  
-  /* Tablet Screens (768px and below) 
-  @media (max-width: 768px) {
-    .navbar {
-      flex-direction: column;
-      text-align: center;
+    .bodys1{
+      display:block;
+      padding-left: 0px;
+      justify-content: center;
     }
-  
-    .bodys1 {
-      flex-direction: column;
-      text-align: center;
+
+    #profile_pic{
+      height: 250px;
+      width: 250px;
+      margin-top: 5rem;
+      justify-self: center;
     }
-  
-    .info {
-      margin-top: 1rem;
+    .info{
+      /* align-items: center;
+      justify-content: center;
+      margin-left: 0px;
+      margin-top: 3rem;
+      margin-left: 15%;   */
+      margin:0px 0px 0px 0px;
+      margin-top: 3rem;
+      justify-self: center;
     }
-  
-    .project1 {
-      width: 45%;
+     .education_box{
+       margin-left: 0px;
+       width:100%;
     }
-  }
-  
-  /* Mobile Screens (480px and below) 
-  @media (max-width: 480px) {
-    .navbar .part1 div {
+    #head , #edu_icon{
+      font-size:28px;
+    }
+    .project{
+      margin-right: 25px;
+    }
+    .projectss{
+      height:1800px;
       display: block;
-      margin: 5px 0;
+      margin-left: 3%;
+       
     }
-  
-    .bodys1 {
-      padding: 1rem;
-    }
-  
-    #profile_pic {
-      width: 150px;
-      height: 150px;
-    }
-  
-    .info {
-      font-size: 0.9rem;
-    }
-  
     .project1 {
-      width: 100%;
-      margin: 0.5rem 0;
+      width:100%;
+      margin-bottom: 20px;
     }
-  
-    .contact-info-container {
-      flex-direction: column;
-      align-items: center;
-      margin: 1rem 0;
+    .pic1 , .pic2 , .pic3{
+     width:80%;
+     margin-right:26%;
     }
-  
-    footer {
-      font-size: 0.8rem;
+    .contact-info-upper-container{
+      display:block;
+
+    }
+    .nav-links-container{
+      height:300px;
+      display: block;
     }
   }
-   */ 

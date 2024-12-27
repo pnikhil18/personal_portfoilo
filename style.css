@@ -2,15 +2,15 @@
   background-color:#ffffff;
   font-family:sans-serif;
   text-transform: capitalize;
-}
+} 
 .navbar{
   height:135px;
   border:2px solid black;
   display:flex;
-}
+} 
 .name{
     width:200px;
-  color:black;
+  color :black;
   font-weight: 400;
   display: flex;
   align-items: center;
