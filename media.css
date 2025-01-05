@@ -11,9 +11,7 @@
       display:none;
     }
   
-    *{
-      background-color: red;
-    }
+    
 
     .bodys1{
       display:block;
@@ -69,4 +67,69 @@
       height:300px;
       display: block;
     }
+  }
+/* ------------------------------------------------------ */
+  @media(max-width:900px){
+    *{
+      
+    }
+    .navbar{
+        /* justify-items: end; */
+    }
+     .list{
+      justify-self: end;
+      align-self: center;
+      margin-left: 30%;
+            
+     }
+    .list-button{
+      font-size: 30px;
+      margin-right: 2px;
+      cursor: pointer;
+       border-color: azure;
+    }
+    .dropdwn{
+      display: block;
+      height: 150px;
+      width: 30%;
+      border:2px solid rgb(89, 90, 88,0.1);      
+      z-index: 1;
+      justify-self: flex-end;
+       display: none; 
+       margin-top:-45px;
+    }
+     
+    .dpp{
+      
+      display:flex;
+      height:35px;
+      width:100%;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .dpp :hover{
+      background-color: rgb(233, 158, 37);
+      color: aqua;
+      display:flex;
+      height:35px;
+      width:100%;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+     
+    }
+     
+  }
+/* --------------------------------------------- */
+
+
+  @media  (min-width :901px){
+  .list{
+    display:none;
+  }
+  
+  .dropdwn{
+    display:none;
+  } 
   }
